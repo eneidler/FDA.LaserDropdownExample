@@ -8,6 +8,8 @@ namespace LaserDropdownExample
 {
     public class BeltWidth
     {
+        //A dictionary was used here instead of a simple list so that the 'value'
+        //of the 'key/value' pair can be used for the number of times the graphic needs to be repeated.
         public readonly Dictionary<string, int> BeltWidths = new Dictionary<string, int>()
         {
             {"24", 2 },

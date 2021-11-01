@@ -49,7 +49,7 @@ namespace LaserDropdownExample
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(117, 186);
+            this.label1.Location = new System.Drawing.Point(58, 186);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 15);
             this.label1.TabIndex = 3;
@@ -59,7 +59,7 @@ namespace LaserDropdownExample
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(267, 186);
+            this.label2.Location = new System.Drawing.Point(238, 186);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 15);
             this.label2.TabIndex = 4;
@@ -69,7 +69,7 @@ namespace LaserDropdownExample
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(390, 186);
+            this.label3.Location = new System.Drawing.Point(426, 186);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 15);
             this.label3.TabIndex = 5;
@@ -79,7 +79,7 @@ namespace LaserDropdownExample
             // 
             this.cmbBeltWidth.DisplayMember = "Key";
             this.cmbBeltWidth.FormattingEnabled = true;
-            this.cmbBeltWidth.Location = new System.Drawing.Point(92, 204);
+            this.cmbBeltWidth.Location = new System.Drawing.Point(33, 204);
             this.cmbBeltWidth.Name = "cmbBeltWidth";
             this.cmbBeltWidth.Size = new System.Drawing.Size(121, 23);
             this.cmbBeltWidth.TabIndex = 6;
@@ -88,9 +88,9 @@ namespace LaserDropdownExample
             // cmbCarcassStyle
             // 
             this.cmbCarcassStyle.FormattingEnabled = true;
-            this.cmbCarcassStyle.Location = new System.Drawing.Point(231, 204);
+            this.cmbCarcassStyle.Location = new System.Drawing.Point(160, 204);
             this.cmbCarcassStyle.Name = "cmbCarcassStyle";
-            this.cmbCarcassStyle.Size = new System.Drawing.Size(121, 23);
+            this.cmbCarcassStyle.Size = new System.Drawing.Size(202, 23);
             this.cmbCarcassStyle.TabIndex = 7;
             this.cmbCarcassStyle.SelectedIndexChanged += new System.EventHandler(this.cmbCarcassStyle_SelectedIndexChanged);
             // 
@@ -99,7 +99,7 @@ namespace LaserDropdownExample
             this.cmbMshaCertification.FormattingEnabled = true;
             this.cmbMshaCertification.Location = new System.Drawing.Point(368, 204);
             this.cmbMshaCertification.Name = "cmbMshaCertification";
-            this.cmbMshaCertification.Size = new System.Drawing.Size(121, 23);
+            this.cmbMshaCertification.Size = new System.Drawing.Size(177, 23);
             this.cmbMshaCertification.TabIndex = 8;
             // 
             // label4
@@ -139,7 +139,7 @@ namespace LaserDropdownExample
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "DemoForm";
-            this.Text = "Fenner Dunlop | Laser Branding Demo Program (v1.0.0)";
+            this.Text = "Fenner Dunlop | Laser Branding Demo Program (v1.1.0)";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,9 +16,8 @@ namespace LaserDropdownExample
         public BeltWidth beltWidth = new BeltWidth();
         public CarcassStyle carcass = new CarcassStyle();
         public MshaCertification mshaCertification = new MshaCertification();
-        public IList<string> emptyList = new List<string>() { "" };
-
-        public string SelectedCarcass { get => cmbCarcassStyle.SelectedText; }
+        //The empty list is used as a default when no Minehaul or Mineflex carcass is selected.
+        public IList<string> emptyList = new List<string>() { "" }; 
 
         public DemoForm()
         {
@@ -40,6 +39,7 @@ namespace LaserDropdownExample
             cmbCarcassStyle.DisplayMember = "Key";
         }
 
+        //Listens for changes in the Carcass Style combo box, and populates the MSHA Cert. combo box accordingling.
         private void cmbCarcassStyle_SelectedIndexChanged(object sender, EventArgs e)
         {
             ComboBox comboBox = (ComboBox)sender;
